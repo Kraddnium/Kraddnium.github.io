@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #4f921f;
+    overflow: hidden;
+    max-height: 119px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul div {
+    padding: 50px;
+    padding-left: 0px;
+    display: inline-block ;
+}
+
+header nav ul div li {
+    display: inline-block;
+    font-size: 200%;
+}
+
+header nav ul div li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 50px; 
+}
+
+header nav ul div li a:hover {
+    background-color: rgba(250, 235, 215, 0.459);
+    
+}
+.navegacion{
+    float: right;
+    width: 350px; /*70 * 5 =350*/
+    height: 70px;
+    overflow: hidden;
+   
+}
+.navegacion ul {
+    display: flex;
+}
+.navegacion ul li{
+    position: relative;
+    list-style: none;
+    width: 70;
+    height: 70;
+}
+.navegacion ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+    text-align: center;
+}
+.navegacion ul li a .icono{
+    position: relative;
+    line-height: 75px;
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+body {
+    background-color: #e5ecf7;  
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+section  article {
+    background-color: rgb(43, 184, 30);
+    color: #fff;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px #39790ba7;
+}
+
+section  article h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+section article h2 {
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.logotipo {
+    float: left;
+}
+
+.bienvenido {
+    
+    padding:6% 21% 2% 21%;
+}
+.r3{
+    justify-content: center;
+    margin: 0% 3% 3% 3%;
+    border: 5px solid;
+    border-color: green;
+    overflow: hidden;
+    padding: 5%;
+}
+.reducir{
+    border: 5px solid;
+    border-color: black;
+    font-size: 200%;
+    padding: 8%;
+    float: left;
+    margin-right: 3%;
+    margin-left: 5%;
+}
+.reutilizar {
+    border: 5px solid;
+    border-color: black;
+    font-size: 200%;
+    padding: 8%;
+    float: left;
+    margin-right: 3%;
+}.reciclar {
+    border: 5px solid;
+    border-color: black;
+    font-size: 200%;
+    padding: 8%;
+    float: left;
+    margin-right: 3%;
+}
