@@ -130,8 +130,7 @@ section article h2 {
     margin-right: 3%;
 }
 .text{
-    padding: 0px;
-    margin: opx;
+    margin: 0px;
     font-family: 'Alfa Slab One', cursive;
     font-size: 25px;
     width: 100%;
@@ -140,6 +139,18 @@ section article h2 {
     background-color: #ffffff;
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
+}
+.textReducir {
+    margin: 0px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    width: 100%;
+    line-height: 25px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding-top: 3%;
 }
 .img-reducir{
     height: 150px;
@@ -156,19 +167,26 @@ section article h2 {
     width: 300px;
     margin-bottom: -4px;
     padding: 0px;
-    border-radius: 18px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
 }
 .img-reciclar {
     height: 150px;
     width: 270px;
     margin-bottom: -4px;
     padding: 0px;
-    border-radius: 18px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
 }
 footer{
-    background-color: rgb(255, 255, 255);
     margin-bottom: 0px;
     border: 5px solid;
     border-color: black;
     height: auto;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-family: 'Alfa Slab One', cursive;
+    justify-content: end;
+    display: flex;
 }
