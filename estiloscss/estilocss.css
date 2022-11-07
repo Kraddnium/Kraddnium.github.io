@@ -57,7 +57,7 @@ header nav ul div li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: grey;
+    color: white;
     text-align: center;
 }
 .navegacion ul li a .icono{
@@ -110,6 +110,8 @@ section article h2 {
 }
 .r3{
     justify-content: center;
+    display: flex;
+    align-items: center;
     margin: 0% 3% 3% 3%;
     overflow: hidden;
     padding: 0% 0% 0% 0%;
@@ -117,7 +119,6 @@ section article h2 {
 .reducir{
     float: left;
     margin-right: 3%;
-    margin-left: 9%;
     
 }
 .reutilizar {
@@ -143,7 +144,7 @@ section article h2 {
 .img-reducir{
     height: 150px;
     width: 300px;
-    margin-bottom: -4px;
+    margin-bottom: -4%;
     padding: 0px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
@@ -163,4 +164,11 @@ section article h2 {
     margin-bottom: -4px;
     padding: 0px;
     border-radius: 18px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    border: 5px solid;
+    border-color: black;
+    height: auto;
 }
