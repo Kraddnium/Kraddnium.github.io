@@ -1,8 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Alfa Slab One', cursive;
 }
 
+.logotipo {
+    float: left;
+}
 
 header {
     background-color: #4f921f;
@@ -96,12 +100,7 @@ section  article h1 {
 section article h2 {
     font-size: 27px;
     text-align: center;
-    font-family: 'Alfa Slab One', cursive;
     font-weight: 100;
-}
-
-.logotipo {
-    float: left;
 }
 
 .bienvenido {
@@ -131,7 +130,6 @@ section article h2 {
 }
 .text{
     margin: 0px;
-    font-family: 'Alfa Slab One', cursive;
     font-size: 25px;
     width: 100%;
     line-height: 25px;
@@ -142,7 +140,6 @@ section article h2 {
 }
 .textReducir {
     margin: 0px;
-    font-family: 'Alfa Slab One', cursive;
     font-size: 25px;
     width: 100%;
     line-height: 25px;
@@ -186,7 +183,6 @@ footer{
     background-color: black;
     color: white;
     text-align: right;
-    font-family: 'Alfa Slab One', cursive;
     justify-content: end;
     display: flex;
 }
