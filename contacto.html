@@ -1,34 +1,76 @@
-<div class="popup" onclick="myFunction()">Click me!
-  <span class="popuptext" id="myPopup">Popup text...</span>
-</div>
-<h1>Tienes algo para decir?</h1>
-<p>A través de este formulario puedes enviarme un mensaje para ayudarme a corregir errores, a mejorar mi blog, o simplemente para decir hola. Cualquier cosa que tengas para decir es bienvenida, así que no lo dudes y déjame un mensaje. Estaré feliz de contestarte!</p>
-<form action="../../form-result.php" target="_blank">
-  <fieldset>
-    <legend>Mensaje</legend>
-    <p><label>Tu nombre: <input type="text" name="nombre"></label></p>
-    <p><label>Tu dirección de correo: <input type="text" name="correo"></label></p>
-    <p>
-      <label>
-        Tu mensaje:<br>
-        <textarea name="mensaje"></textarea>
-      </label>
-    </p>
-  </fieldset>
-  <fieldset>
-    <legend>Nuevos temas</legend>
-    <p>
-      ¿Qué temas te gustaría que trate más en mi sitio?<br>
-      <label><input type="checkbox" name="html"> HTML</label>
-      <label><input type="checkbox" name="graficos"> Gráficos</label>
-      <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
-      <label><input type="checkbox" name="arte"> Arte</label>
-      <label><input type="checkbox" name="musica"> Música</label>
-    </p>
-  </fieldset>
-  <p>
-    <input type="submit" value="Enviar mensaje">
-
-    <input type="reset" value="Comenzar de nuevo">
-  </p>
-</form>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estiloscss/contacto.css" title="EstiloPagina">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body>
+  <header>
+      <div class="logotipo">
+          <img src="imagenes/logoecosistem.png" width="120" height="120" alt="ECOSISTEMlogo">
+      </div>
+      <nav>
+          <ul>
+              <div>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="servicios.html">Servicios</a></li>
+                  <li><a href="sn.html">Sobre nosotros</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+              </div>
+            </ul>
+      </nav>
+  </header>
+  <section class="main">
+    <section class=" main-section">
+      <h1>Contactanos!!!</h1>
+      <p>
+        A través de este formulario puedes podra contactar directamente con nosotros, tanto como para solicitar imformacion, como para solicitar uno de nuestros servicios.
+      </p>
+      <hr>
+      <form action="xxxx.php">
+        <h2>¿Porque nos contacta?</h2>
+        <p>
+          <label class="Cuadrados"><input type="checkbox" name="html" /> Donacion</label>
+          <label class="Cuadrados"><input type="checkbox" name="graficos" /> Solicitar donacion</label>
+          <label class="Cuadrados"><input type="checkbox" name="videojuegos" /> Servicios</label>
+          <label class="Cuadrados"><input type="checkbox" name="arte" /> Otros</label>
+        </p>
+        <h2>Datos</h2>
+          <p>
+            <label>Nombre: <br>
+              <input type="text" name="Nombre" required /></label>
+          </p>
+          <label>Apellidos: <br>
+              <input type="text" name="Apellidos" required /></label>
+          </p>
+          <p>
+            <label>Dirección de correo: <br>
+              <input type="text" name="Correo" required /></label>
+          </p>
+          <p>
+            <label>Numero de telefono <br>
+              <input type="number" name="Telefono" /></label>
+          </p>
+          <p>
+            <label>
+              Tu mensaje:<br>
+              <textarea name="mensaje"></textarea>
+            </label>
+          </p>
+        <section class="botones">
+          <input class="boton" type="reset" value="Resetar" />
+          <input class="boton" type="submit" value="Enviar" />
+        </section>
+      </form>
+    </section>
+  </section>
+  <footer>
+    <p class="f-text">Derechos de autor @ECOSISTEM 2022</p>
+  </footer>
+</body>

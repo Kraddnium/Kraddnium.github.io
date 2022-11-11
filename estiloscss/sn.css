@@ -17,7 +17,7 @@ header nav ul {
 }
 
 header nav ul div {
-    padding: 50px;
+    padding: 3%;
     padding-left: 0px;
     display: inline-block;
 }
@@ -35,7 +35,6 @@ header nav ul div li a {
 
 header nav ul div li a:hover {
     background-color: rgba(250, 235, 215, 0.459);
-
 }
 body {
     background-color: #e5ecf7;
@@ -150,12 +149,18 @@ body {
 }
 
 section article {
-    background-color: rgb(43, 184, 30);
+    background-color: #4f921f;
     color: #fff;
-    text-align: center;
     border-radius: 20px;
     padding: 1%;
     box-shadow: 10px 10px 15px #39790ba7;
+}
+
+.li-sn{
+    margin-left: 4%;
+}
+.li-sn2 {
+    margin-left: 8%;
 }
 
 section article h2 {
@@ -164,6 +169,14 @@ section article h2 {
     font-weight: 100;
 }
 
+.c-video{
+    background-color: #4f921f;
+    color: #fff;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 10px 10px 15px #39790ba7;
+    text-align: center;
+}
 .video{
     margin-top: 2%;
     width: 70%;

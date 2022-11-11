@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.logotipo {
+    float: left;
+}
+
+header {
+    background-color: #4f921f;
+    overflow: hidden;
+    max-height: 119px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul div {
+    padding: 3%;
+    padding-left: 0px;
+    display: inline-block;
+}
+
+header nav ul div li {
+    display: inline-block;
+    font-size: 200%;
+}
+
+header nav ul div li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 50px;
+}
+
+header nav ul div li a:hover {
+    background-color: rgba(250, 235, 215, 0.459);
+}
+
+
+body {
+    background-color: #e5ecf7;
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ a {
+     text-decoration: none;
+ }
+.main{ 
+   padding: 10% 20%;
+}
+.main-section {
+    background-color: rgb(43, 184, 30);
+    color: #fff;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 2%;
+    box-shadow: 10px 10px 15px #39790ba7; 
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section section h1{
+    font-size: 455%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    border: 2px solid black;
+    margin-top: 3%;
+}
+h2{
+    margin-top: 3%;
+    padding-bottom: 2%;
+    font-size: 40px;
+}
+label{
+    display: inline-block;
+    
+}
+.Cuadrados{
+    margin-left: 3%;
+    margin-bottom: 0px; 
+}
+input{
+    border: 5px solid black;
+    margin-bottom: 8%;
+    height: 25px;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+textarea{
+    height: 150px;
+    width: 250px; 
+    border: 5px solid black;
+    border-radius: 16px;
+    resize: none;
+}
+
+.boton{
+    height: 30px;
+    width: 100px;
+    padding: 0,5%;
+    font-size: 100%; 
+}
+footer {
+    border: 5px solid;
+    border-color: black;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: right;
+    justify-content: end;
+    display: flex;
+}

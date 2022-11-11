@@ -19,9 +19,9 @@ header nav ul {
 }
 
 header nav ul div {
-    padding: 50px;
+    padding: 3%;
     padding-left: 0px;
-    display: inline-block ;
+    display: inline-block;
 }
 
 header nav ul div li {
@@ -32,44 +32,13 @@ header nav ul div li {
 header nav ul div li a {
     text-decoration: none;
     color: #fff;
-    padding: 50px; 
+    padding: 50px;
 }
 
 header nav ul div li a:hover {
     background-color: rgba(250, 235, 215, 0.459);
-    
 }
-.navegacion{
-    float: right;
-    width: 350px; /*70 * 5 =350*/
-    height: 70px;
-    overflow: hidden;
-   
-}
-.navegacion ul {
-    display: flex;
-}
-.navegacion ul li{
-    position: relative;
-    list-style: none;
-    width: 70;
-    height: 70;
-}
-.navegacion ul li a{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    text-align: center;
-}
-.navegacion ul li a .icono{
-    position: relative;
-    line-height: 75px;
-    transition: 0.5s;
-    font-size: 30px;
-}
+
 
 body {
     background-color: #e5ecf7;  
@@ -79,22 +48,19 @@ body {
     background-size: cover;
 }
 
-
-
 section  article {
     background-color: rgb(43, 184, 30);
     color: #fff;
     text-align: justify;
     border-radius: 20px;
-    padding: 10px;
+    padding: 2%;
     box-shadow: 10px 10px 15px #39790ba7;
 }
 
 section  article h1 {
-    font-size: 100px;
+    font-size: 455%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 section article h2 {
@@ -113,7 +79,7 @@ section article h2 {
     align-items: center;
     margin: 0% 3% 3% 3%;
     overflow: hidden;
-    padding: 0% 0% 0% 0%;
+    padding: 0%;
 }
 .reducir{
     float: left;
@@ -129,20 +95,19 @@ section article h2 {
     margin-right: 3%;
 }
 .text{
-    margin: 0px;
+    margin: 0%;
     font-size: 25px;
     width: 100%;
-    line-height: 25px;
+    line-height: 120%;
     text-align: center;
     background-color: #ffffff;
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
 }
 .textReducir {
-    margin: 0px;
     font-size: 25px;
     width: 100%;
-    line-height: 25px;
+    line-height: 100%;
     text-align: center;
     background-color: #ffffff;
     border-bottom-left-radius: 18px;
@@ -153,7 +118,6 @@ section article h2 {
     height: 150px;
     width: 300px;
     margin-bottom: -4%;
-    padding: 0px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 }
@@ -163,7 +127,6 @@ section article h2 {
     height: 150px;
     width: 300px;
     margin-bottom: -4px;
-    padding: 0px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 }
@@ -176,7 +139,6 @@ section article h2 {
     border-top-right-radius: 18px;
 }
 footer{
-    margin-bottom: 0px;
     border: 5px solid;
     border-color: black;
     height: auto;

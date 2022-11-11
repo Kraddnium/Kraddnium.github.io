@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.logotipo {
+    float: left;
+}
+
+header {
+    background-color: #4f921f;
+    overflow: hidden;
+    max-height: 119px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul div {
+    padding: 3%;
+    padding-left: 0px;
+    display: inline-block;
+}
+
+header nav ul div li {
+    display: inline-block;
+    font-size: 200%;
+}
+
+header nav ul div li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 50px;
+}
+
+header nav ul div li a:hover {
+    background-color: rgba(250, 235, 215, 0.459);
+}
+body {
+    background-color: #e5ecf7;
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section article {
+    background-color: rgb(43, 184, 30);
+    color: #fff;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 2%;
+    box-shadow: 10px 10px 15px #39790ba7;
+}
+
+section article h1 {
+    font-size: 455%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section article h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bienvenido {
+
+    padding: 6% 21% 2% 21%; 
+    overflow: hidden;
+}
+.s-s-servicios1 {
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+    overflow: hidden;
+}
+.s-servicios1{
+    background-color: rgb(43, 184, 30);
+    display: inline-block;
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #39790ba7;
+    overflow: hidden;
+}
+.s-servicios1-sp {
+    background-color: rgb(43, 184, 30);
+    display: inline-block;
+
+    margin: 0px 10%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #39790ba7;
+    overflow: hidden;
+}
+.txt1-servicios {
+    padding-left: 1%;
+    padding-right: 1%;
+    border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: white;
+}
+.txt2-servicios {
+    padding-left: 10%;
+    padding-right: 10%;
+    border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: white;
+    font-size: 17px;
+}
+.txt3-servicios {
+    padding-left: 10%;
+    padding-right: 10%;
+    border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: white;
+    font-size: 17px;
+}
+.img1-servicios {
+    padding-top: 1%;
+    height: 250px;
+    width: 250px;
+}
+.img2-servicios {
+    padding-top: 1%;
+    height: 250px;
+    width: 250px;}
+.img3-servicios {
+    padding-top: 1%;
+    height: 250px;
+    width: 250px;
+}
+.popup{
+
+}
+section div{
+    overflow: hidden;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #39790ba7;
+}
+footer {
+    clear: both;
+    border: 5px solid;
+    border-color: black;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: right;
+    justify-content: end;
+    display: flex;
+}
